@@ -8,14 +8,18 @@ public class Star{
   public static void main(String[] args){
     char x='#';
     char y='O';
-    int z=4;
-    star(x,y,z);
+    int z=3;
     char a='*';
     char b='@';
-    int c=3;
-    star(a,b,c);
+    int c=4;
+    char i='~';
+    char j='$';
+    int k=5;
     star(x,y,z);
     star(a,b,c);
+    star(i,j,k);
+    star(a,b,c);
+    star(x,y,z);
   }
   public static void star(char x, char y, int number){
     for(int a=1; a<=number; a++){
@@ -106,5 +110,5 @@ public class Star{
         System.out.print(""+x+x+"                                 "+x+x+" ");
     }
     System.out.println();
-}
+  }
 }
