@@ -74,9 +74,14 @@ public class Equestria{
         int city2y = -19;
         int city3x = 25;
         int city3y = -23;
+        int city4x = 16;
+        int city4y = -14;
         double a = compare(city1x, city1y, city2x, city2y);
         double b = compare(city2x, city2y, city3x, city3y);
         double c = compare(city1x, city1y, city3x, city3y);
+        double d = compare(city3x, city3y, city4x, city4y);
+        double e = compare(city2x, city2y, city4x, city4y);
+        double f = compare(city1x, city1y, city4x, city4y);
         double x = longest(a, b, c);
         System.out.println("Longest distance: "+x+" miles");
     }
