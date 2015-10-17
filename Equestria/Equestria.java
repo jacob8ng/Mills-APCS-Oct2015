@@ -82,7 +82,7 @@ public class Equestria{
         double d = compare(city3x, city3y, city4x, city4y);
         double e = compare(city2x, city2y, city4x, city4y);
         double f = compare(city1x, city1y, city4x, city4y);
-        double x = longest(a, b, c);
+        double x = longest(a, b, c, d, e, f);
         System.out.println("Longest distance: "+x+" miles");
     }
     public static double compare(int x1, int y1, int x2, int y2){
@@ -90,8 +90,8 @@ public class Equestria{
         distance = distance/100;
         return distance;
     }
-    public static double longest(double x, double y, double z){
-        double longest = Math.max(Math.max(x,y),z);
+    public static double longest(double a, double b, double c, double d, double e, double f){
+        double longest = Math.max(Math.max(Math.max(Math.max(Math.max(a,b),c),d),e),f);
         return longest;
     }
 }
