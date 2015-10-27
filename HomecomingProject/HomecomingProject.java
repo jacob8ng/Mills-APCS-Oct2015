@@ -20,8 +20,7 @@ public class HomecomingProject{
         return name;
     }
     public static void damage(Scanner userInput, String x){
-        System.out.println("Let's figure out the damage for the evening.");
-        System.out.println();
+        System.out.println("Let's figure out the damage for the evening.\n");
         System.out.println("What are your estimated costs?");
         System.out.print("Tickets (each): $");
         double tickets = userInput.nextDouble();
